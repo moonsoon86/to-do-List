@@ -152,3 +152,25 @@ select{
     
 }
 
+
+@media only screen and (max-width: 500px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .todo-input{
+        width:30vh;
+    }
+    .todo{
+        width:300px;    
+    }
+
+
+}  
+
